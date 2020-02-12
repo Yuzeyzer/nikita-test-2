@@ -1,0 +1,18 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 0.3rem;
+    background-color: green;
+    color: #fff;
+    min-height: 10rem;
+}
+.active {
+    background-color: black;
+}
+h1 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #222;
+}
