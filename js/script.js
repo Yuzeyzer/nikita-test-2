@@ -7,6 +7,6 @@ rowWrapper.addEventListener('click', function(event) {
         startPoint.classList.remove('active')
     }
   let index = [...rowWrapper.children].findIndex(el => el == event.target)
-  let box = document.getElementsByClassName('box')[index +3];
+  let box = document.getElementsByClassName('box')[index +2];
   let next = box.nextElementSibling.classList.add('active');
 })
