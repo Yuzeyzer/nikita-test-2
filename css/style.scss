@@ -1,4 +1,4 @@
-.box {
+.GridProducts {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,10 @@
     background-color: green;
     color: #fff;
     min-height: 10rem;
+    .products {
+        min-height: 100%;
+        min-width: 100%;
+    }
 }
 .active {
     background-color: black;
