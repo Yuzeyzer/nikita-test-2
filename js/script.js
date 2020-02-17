@@ -11,7 +11,7 @@
 //     console.log(window.location.href = document.getElementsByClassName('productListThumb')[index+3].href)
 //   }
 // });
-document.querySelector('.tResults').addEventListener('click', function(event) {
+document.querySelector('#tResult').addEventListener('click', function(event) {
   'use strict';
   event.preventDefault();
   let products = document.getElementsByClassName('productListThumb');
