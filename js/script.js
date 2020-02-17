@@ -2,7 +2,18 @@
 // let array = [];
 // console.log(resultRightBox)
 // resultRightBox.addEventListener('click', function(event) {
-//   'use strict';
+// //   'use strict';
+// let products = document.getElementsByClassName('productListThumb');
+//   let index = [...products].findIndex(el => el === event.target);
+//   if (event.target.classList.contains('productListThumb')) {
+// for (let i=0;i<array.length;i++){
+//   array[i].addEventListener("click", function(event){
+//     if (event.target.classList.contains('productListThumb')) {
+//       //     window.location.href = document.getElementsByClassName('productListThumb')[index+3].href;
+//       //     console.log(window.location.href = document.getElementsByClassName('productListThumb')[index+3].href)
+//       //   }
+//   })
+// }
 //   event.preventDefault();
 //   let products = document.getElementsByClassName('productListThumb');
 //   let index = [...products].findIndex(el => el === event.target);
